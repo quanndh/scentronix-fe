@@ -1,16 +1,16 @@
 .container {
   box-shadow: none;
-  background-color: white;
+  background-color: black;
 
   .navContainer {
     width: 80%;
     margin: 0 auto;
     .navItem {
-      color: #000;
+      color: white;
 
       &:hover {
         text-decoration: underline;
-        text-decoration-color: #000;
+        text-decoration-color: white;
         text-decoration-thickness: 2px;
         text-underline-offset: 8px;
       }
