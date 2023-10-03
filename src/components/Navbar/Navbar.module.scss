@@ -1,0 +1,24 @@
+.container {
+  box-shadow: none;
+  background-color: white;
+
+  .navContainer {
+    width: 80%;
+    margin: 0 auto;
+    .navItem {
+      color: #000;
+
+      &:hover {
+        text-decoration: underline;
+        text-decoration-color: #000;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 8px;
+      }
+    }
+  }
+}
+
+.icon {
+  width: 80px;
+  height: 80px;
+}
